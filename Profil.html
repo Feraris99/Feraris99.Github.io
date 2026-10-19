@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Website</title>
+    <style>
+        /* --- RESET & BACKGROUND --- */
+        body {
+            background-color: #F5F0E6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* --- TAMPILAN TABEL MODERN SIMPEL --- */
+        table[border="1"] {
+            width: 100% !important;
+            max-width: 950px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            overflow: hidden;
+            border: none !important;
+        }
+
+        /* --- HEADER BIRU --- */
+        tr:first-child td {
+            background-color: #18335d !important;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        tr:first-child h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        tr:first-child i {
+            color: #d1d5db;
+            font-size: 1rem;
+        }
+
+        /* --- MENU / NAVIGASI --- */
+        tr:nth-child(2) td {
+            background-color: #2c4a7c !important;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tr:nth-child(2) a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 6px 15px;
+            margin: 0 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        tr:nth-child(2) a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* --- KONTEN PROFIL --- */
+        td[width="650"] {
+            padding: 35px 30px;
+            vertical-align: top;
+        }
+
+        td[width="650"] h2 {
+            color: #18335d;
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .info-item {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #374151;
+        }
+
+        .info-item strong {
+            color: #18335d;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        .deskripsi {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px dashed #d1d5db;
+            color: #4b5563;
+            font-style: italic;
+            line-height: 1.6;
+        }
+
+        /* --- SIDEBAR TAUTAN --- */
+        td[valign="top"] {
+            padding: 30px;
+            background-color: #faf8f5;
+            border-left: 1px solid #eae5d9;
+            vertical-align: top;
+            width: 250px;
+        }
+
+        h3 {
+            color: #18335d;
+            font-size: 1.1rem;
+            margin-top: 0;
+            border-bottom: 2px solid #18335d;
+            padding-bottom: 8px;
+        }
+
+        ol {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        ol li a {
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        ol li a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- FOOTER BIRU GELAP --- */
+        tr[bgcolor="#18"], tr:last-child td {
+            background-color: #0f213a !important;
+            color: #ffffff;
+            padding: 20px 30px;
+        }
+
+        tr[bgcolor="#18"] p {
+            margin: 0;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        tr[bgcolor="#18"] p[align="right"] {
+            text-align: right !important;
+            margin-top: 5px;
+        }
+
+        tr[bgcolor="#18"] font[color="4CAF50"] {
+            color: #60a5fa !important; /* Warna biru muda terang untuk copyright */
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body bgcolor="#F5F0E6">
+
+<table border="1" width="900" align="center">
+    <!-- HEADER -->
+    <tr>
+        <td colspan="2" align="center" bgcolor="183">
+            <font color="white">
+            <h1>Website Faris</h1>
+            <i>Kegagalan adalah tangga menuju kesuksesan</i>
+            </font>
+        </td>
+    </tr>
+    <!-- MENU HYPERLINK -->
+    <tr>
+        <td colspan="2" align="center">
+            <a href="index.html">Beranda</a> |
+            <a href="Profil.html">Profil</a> |
+            <a href="kegiatan.html">Kegiatan</a> |
+            <a href="kontak.html">Kontak</a>
+        </td>
+    </tr>
+    <!-- ISI PROFIL -->
+    <tr>
+        <td width="650">
+            <h2>PROFIL PEMBUAT WEBSITE</h2>
+            
+            <div class="info-item">
+                <strong>NAMA :</strong> Muhammad Faris Syahreza
+            </div>
+            
+            <div class="info-item">
+                <strong>KELAS :</strong> XI DKV 2
+            </div>
+            
+            <div class="info-item">
+                <strong>JURUSAN :</strong> DESAIN KOMUNIKASI VISUAL
+            </div>
+            
+            <p class="deskripsi">
+                Perkenalkan Website Buatan Saya di sini tempat untuk saya berkreasi.
+            </p>
+        </td>
+        <!-- TAUTAN LINK -->
+        <td valign="top">
+            <h3>Tautan Eksternal</h3>
+            <ol>
+                <li><a href="https://www.mawan.net">Website Mawan</a></li>
+                <li><a href="https://github.com">Github</a></li>
+                <li><a href="https://wikipedia.org">Wikipedia</a></li>
+                <li><a href="https://www.w3schools.com">W3Schools</a></li>
+            </ol>
+        </td>
+    </tr>
+    <!-- FOOTER -->
+    <tr bgcolor="#18">
+        <td colspan="2" align="center">
+            <font color="white">
+                <p>Website Orang Keren</p>
+            </font>
+            <p align="right">
+                <font color="4CAF50" size="2">
+                    &copy; 2026 Faris Syahreza
+                </font>
+            </p>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
